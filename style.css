@@ -1,9 +1,51 @@
-.post {
-  width: 30rem;
+body{
+  background-color: black;
 }
 
-/* .post-image { */
-.post > img {
-  object-fit: contain;
-  width: 100%;
+.postcard {
+  background-color: white;
+  border: 10px solid white;
+  padding: 20px;
+  width: 400px;
+  margin: 40px auto;
+}
+
+.header{ 
+  display: flex;
+  align-items: center;
+}
+
+
+.center{
+  display: flex;
+  gap: 40px; 
+}
+
+
+.left{
+  width: 50%; 
+}
+
+
+.right{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  border:none;
+  outline: none;
+  border-bottom: 1px solid gray;
+}
+
+
+.header img{
+  margin-left:auto;
+  width: 50px;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
 }
